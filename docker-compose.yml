@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  wisper_dev:
+    build: .
+    container_name: wisper_dev
+    volumes:
+      - ./:/wisper
